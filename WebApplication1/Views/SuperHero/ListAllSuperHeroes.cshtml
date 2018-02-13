@@ -1,0 +1,54 @@
+@model IEnumerable<WebApplication1.Models.SuperHero>
+
+@{
+    ViewData["Title"] = "ListAllSuperHeroes";
+}
+
+<h2>ListAllSuperHeroes</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.ActionLink(@Html.DisplayNameFor(model => model.Id), "ListAllSuperHeroes","SuperHero", new { sortOrder = "id" })
+                    
+                </th>
+                <th>
+                    @Html.ActionLink(@Html.DisplayNameFor(model => model.Name).ToString(), "ListAllSuperHeroes", new { sortOrder = "name" })
+                </th>
+                <th>
+                    @Html.ActionLink(@Html.DisplayNameFor(model => model.Universe).ToString(), "ListAllSuperHeroes", new { sortOrder = "universe"})
+                </th>
+                <th>
+                    @Html.ActionLink(@Html.DisplayNameFor(model => model.Age).ToString(), "ListAllSuperHeroes", new { sortOrder = "age"})
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Universe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
