@@ -13,10 +13,6 @@
     <thead>
         <tr>
                 <th>
-                    @Html.ActionLink(@Html.DisplayNameFor(model => model.Id), "ListAllSuperHeroes","SuperHero", new { sortOrder = "id" })
-                    
-                </th>
-                <th>
                     @Html.ActionLink(@Html.DisplayNameFor(model => model.Name).ToString(), "ListAllSuperHeroes", new { sortOrder = "name" })
                 </th>
                 <th>
@@ -31,9 +27,6 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Id)
-            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
             </td>

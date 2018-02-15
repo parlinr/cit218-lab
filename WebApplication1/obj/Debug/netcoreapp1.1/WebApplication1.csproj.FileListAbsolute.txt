@@ -8,3 +8,13 @@ C:\Users\Administrator\source\repos\WebApplication1\WebApplication1\obj\Debug\ne
 C:\Users\Administrator\source\repos\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.pdb
 C:\Users\Administrator\source\repos\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.dll
 C:\Users\Administrator\source\repos\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.pdb
+C:\Users\parlinr\Desktop\cit218-lab\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.deps.json
+C:\Users\parlinr\Desktop\cit218-lab\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.runtimeconfig.json
+C:\Users\parlinr\Desktop\cit218-lab\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.runtimeconfig.dev.json
+C:\Users\parlinr\Desktop\cit218-lab\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.dll
+C:\Users\parlinr\Desktop\cit218-lab\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.pdb
+C:\Users\parlinr\Desktop\cit218-lab\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\parlinr\Desktop\cit218-lab\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\parlinr\Desktop\cit218-lab\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.AssemblyInfo.cs
+C:\Users\parlinr\Desktop\cit218-lab\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.dll
+C:\Users\parlinr\Desktop\cit218-lab\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.pdb

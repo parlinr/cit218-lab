@@ -15,6 +15,16 @@ namespace WebApplication1.Controllers
             return View();
         }
 
+        public IActionResult Details(int id)
+        {
+            DataService ds = new DataService();
+            IEnumerable<SuperHero> superHeroes = ds.InitializeData();
+
+            SuperHero superHero = superHeroes.FirstOrDefault(s => s.Id == id);
+
+            return View();
+        }
+
         public IActionResult ListAllSuperHeroes(string sortOrder)
         {
             IEnumerable<SuperHero> heroes = new DataService().InitializeData();

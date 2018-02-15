@@ -10756,11 +10756,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\parlinr\\Desktop\\cit218-lab\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\parlinr\\Desktop\\cit218-lab\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\parlinr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\WebApplication1\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\parlinr\\Desktop\\cit218-lab\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\parlinr\\AppData\\Roaming\\NuGet\\NuGet.Config",
